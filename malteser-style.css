@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+}
+a{
+    text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  margin-right: auto;
+  display: block;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+
+}
+
+header {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.box-container {
+  background-color: red;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box-container:hover {
+  background-color: black;
+}
+
+.footer-bar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bar li {
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.animation {
+  float: right;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.new-product-section {
+  font-size: 50px;
+  color: white;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.new-product-text {
+  font-size: 30px;
+}
+footer {
+  background-color: black);
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.footer-bar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.img-malteser1,
+.img-malteser2,
+.img-malteser3 {
+  width: 200px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.box-container p {
+  margin-top: 60px;
+  padding: 40px;
+  color: white;
+  font-size: 15px;
+}
+footer {
+  text-align: center;
+}
